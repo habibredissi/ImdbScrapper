@@ -1,0 +1,10 @@
+language: python
+python:
+  - 2.7
+install:
+  - pip install unittest2
+  - pip install beautifulsoup4
+  - pip install lxml
+  - pip install requests
+  - pip install html5lib
+script: python test_scrapper.py
